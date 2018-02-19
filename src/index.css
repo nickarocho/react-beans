@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    border: 1px solid #262626;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.Nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    min-height: 50vh;
+    padding: 20px;
+}
+
+li {
+    display: flex;
+    padding: 0 10px;
+}
+
+h1 {
+    padding-left: 30px;
+}
